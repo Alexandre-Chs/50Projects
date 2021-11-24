@@ -1,4 +1,4 @@
-## 🇫🇷 FRENCH VERSION - Bonjour ! 
+# 🇫🇷 FRENCH VERSION - Bonjour ! 
 
 Premier challenge pour moi, 50 projets HTML / CSS / JS en 50 jours. 
 Vous retrouvez dans le dossier tout mes projets que j'ai appris sur ce cours [udemy](https://www.udemy.com/course/50-projects-50-days/).
