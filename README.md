@@ -15,7 +15,7 @@ J'espère apprendre d'avantage et me perfectionner en JS Vanilla !
 
 **Vous trouverez en dessous un tableau avec tout les live code des projets !**
 
-Bonne journée ☕
+Bonne journée !☕
 
 
 
@@ -41,7 +41,7 @@ I hope to learn more and improve myself in JS Vanilla!
 
 **You will find below a table with all the live code of the projects!**
 
-Good day ☕
+Good day !☕
 
 
 # LIVE CODE 💻
