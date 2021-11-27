@@ -50,7 +50,7 @@ Good day !☕
 |  #  | Project                                                                                                                     | Live Demo                                                                         |
 | :-: | --------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
 | 01  |[Expanding Cards](https://github.com/Alexandre-Chs/50Projects/tree/main/Expanding_effect)                             | [Live Demo](https://50-projects-rouge.vercel.app/)               |
-| 02  | [Progress Steps](https://github.com/Alexandre-Chs/50Projects/tree/main/_project_starter_)                               | [Live Demo](https://progressbar.vercel.app/)                |
+| 02  | [Progress Steps](https://github.com/Alexandre-Chs/50Projects/tree/main/Progress%20Bar)                               | [Live Demo](https://progressbar.vercel.app/)                |
 | 03  | [Rotating Navigation Animation]()                       | [Live Demo]() |
 | 04  | [Hidden Search Widget]()                          | [Live Demo]()          |
 | 05  | [Blurry Loading]()                               | [Live Demo]()                |
