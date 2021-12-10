@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Space+Mono:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    font-size: 4rem;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.split {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+}
+
+.split.left {
+    background-image: url('./annie-spratt-Ceu5Donm8nU-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    left: 0;
+}
+
+.split.left::before {
+    content: '';
+    position: absolute;
+    background-color: rgba(83, 153, 37, 0.178);
+    width: 100%;
+    height: 100%;
+}
+
+.split.right {
+    background-image: url('./mathew-schwartz-WvXJH6A6Gfo-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    right: 0; 
+}
+
+.split.right::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(182, 194, 11, 0.178);
+}
+
+.split h1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+
+.split .btn:hover {
+    background-color: beige;
+    border-color: beige;
+    color: darkblue;
+}
+
+
+.btn {
+    position: absolute;
+    left: 50%;
+    top: 65%; 
+    border: 3px solid #FFF;
+    padding: 1rem;
+    width: 150px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 25px;
+    font-weight: bold;
+    transform: translateX(-50%);
+}
+
+.hover-left .left{
+    width: 75%;
+}
+
+.hover-left .right {
+    width: 25%;
+}
+
+.hover-right .left{
+    width: 25%;
+}
+
+.hover-right .right {
+    width: 75%;
+}
+
+.split.right,
+.split.left,
+.split.right::before,
+.split.left::before {
+  transition: all 1s ease-in-out;
+}
