@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Space+Mono:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+  font-family: 'Muli', sans-serif;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  margin: 50px 0 30px;
+  text-align: center;
+}
+
+.faq-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.faq {
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.534);
+  margin: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  padding-left: 1rem;
+}
+
+.faq.active {
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.faq-toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 17px;
+  right: 30px;
+  border: 0;
+  background-color: transparent;
+  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.fa-times {
+  color: #fff;
+  background-color: #9fa4a8;
+  border-radius: 5px;
+  height: auto;
+  width: 30px;
+  margin: 0 auto;
+}
+
+.fa-times {
+  padding: .2rem;
+}
+
+.faq-text {
+    display: none;
+}
+
+.faq.active .faq-text {
+    display: block;
+}
+
+.faq.active .faq-toggle .fa-chevron-down {
+  display: none;
+}
+
+.faq.active .faq-toggle .fa-times {
+  display: block;
+}
+
+.faq .faq-toggle .fa-times {
+  display: none;
+}
